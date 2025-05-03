@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join the Community | Samarthan Setu</title>
+  <link rel="stylesheet" href="community.css" />
+</head>
+<body>
+
+  
+  <div class="community-container">
+    <header>
+      <h1>Join Our Community</h1>
+      <p>Be a part of Samarthan Setu and support change in your way.</p>
+    </header>
+
+    <form id="community-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="community">Community / Region</label>
+      <input type="text" id="community" name="community" required />
+
+      <label for="message">Why do you want to join?</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Join Now</button>
+    </form>
+
+    <div id="success-message" class="hidden">
+      <h3>Thank you for joining us!</h3>
+      <p>We’ll get in touch with you soon.</p>
+    </div>
+  </div>
+
+  
+  
+
+  <script src="community.js"></script>
+</body>
+</html>

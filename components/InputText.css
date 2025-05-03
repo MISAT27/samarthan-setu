@@ -1,0 +1,19 @@
+.input-wrapper {
+    padding: 2px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient border */
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .gradient-input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+  }
+  

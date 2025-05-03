@@ -1,0 +1,91 @@
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* styles.css */
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0%;
+  padding: 1rem;
+  z-index: 1000;
+  
+  
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+  
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Headings */
+  .main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0077cc;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    margin-bottom: 50px;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-left: 6px solid #0077cc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .section h2 {
+    color:#0077cc;
+    margin-top: 0;
+  }
+  
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
